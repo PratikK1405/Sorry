@@ -24,7 +24,7 @@ function startplease()
         please.push({
             x: Math.random() * pleaseCanvas.width,
             y: Math.random() * pleaseCanvas.height - pleaseCanvas.height,
-            size: Math.random() * 25 + 10,
+            size: Math.random() * 30 + 10,
             speed: Math.random() * 3 + 1,
         });
     }
